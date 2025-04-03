@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drama Series</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bd">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="series2.jpeg" class="img-fluid border border-white border-4 rounded" alt="Drama Series Image">
+            </div>
+            <div class="col-md-8">
+                <h2>Nobody leaves Palo Alto</h2>
+                <p>The heroine of the series is a police investigator in a personal crisis, who arrives at a crime scene. 
+                    At first she thinks it's a simple investigation, but later it becomes clear that it's a murder case.</p>
+        
+                <h4>Actors:</h4>
+                <ul class="list-unstyled">
+                    <li>Yaniv Swisa</li>
+                    <li>Golan Azulai</li>
+                    <li>Shon Softi</li>
+                    <li>Magi Azarzar</li>
+                    <li>Reef Neaman</li>
+                   <li>Arye Cherner</li>
+                    <li>Hisham Sliman</li>
+                    <li>Alacsander Sandrovich</li>
+                    <li>Leana Pripled</li>
+                    <li>Matias neybles</li>
+        
+                
+               
+                </ul>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#shareModal">
+                    Share
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Modal -->
+    <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="shareModalLabel">Share this series</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="shareForm">
+                        <div class="mb-3">
+                            <label for="shareUsername" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="shareUsername" placeholder="Enter username">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Share</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBhW3AMrsd5j1h1HU51UkS2sUBFmOsEE2LhH/+Rrx1pLJ8oE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
